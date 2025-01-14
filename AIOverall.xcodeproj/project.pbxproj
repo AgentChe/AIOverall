@@ -134,7 +134,6 @@
 		DE623FC12D350BAB0093C74A /* AccountHistoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE623ECB2D350BAB0093C74A /* AccountHistoryCell.swift */; };
 		DE623FC22D350BAB0093C74A /* AssistantResultViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE623EC42D350BAB0093C74A /* AssistantResultViewModel.swift */; };
 		DE623FC32D350BAB0093C74A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE623EA72D350BAB0093C74A /* SceneDelegate.swift */; };
-		DE623FC42D350BAB0093C74A /* BranchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE623E732D350BAB0093C74A /* BranchManager.swift */; };
 		DE623FC52D350BAB0093C74A /* ACEView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE623EF32D350BAB0093C74A /* ACEView.swift */; };
 		DE623FC62D350BAB0093C74A /* AssistantImageResizeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE623EF92D350BAB0093C74A /* AssistantImageResizeViewController.swift */; };
 		DE623FC72D350BAB0093C74A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE623EA42D350BAB0093C74A /* AppDelegate.swift */; };
@@ -174,7 +173,6 @@
 		DE623E622D35096C0093C74A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE623E632D35096C0093C74A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE623E722D350BAB0093C74A /* AmplitudeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmplitudeManager.swift; sourceTree = "<group>"; };
-		DE623E732D350BAB0093C74A /* BranchManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BranchManager.swift; sourceTree = "<group>"; };
 		DE623E742D350BAB0093C74A /* FacebookManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookManager.swift; sourceTree = "<group>"; };
 		DE623E752D350BAB0093C74A /* FirebaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseManager.swift; sourceTree = "<group>"; };
 		DE623E772D350BAB0093C74A /* RequestReview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestReview.swift; sourceTree = "<group>"; };
@@ -401,7 +399,6 @@
 			isa = PBXGroup;
 			children = (
 				DE623E722D350BAB0093C74A /* AmplitudeManager.swift */,
-				DE623E732D350BAB0093C74A /* BranchManager.swift */,
 				DE623E742D350BAB0093C74A /* FacebookManager.swift */,
 				DE623E752D350BAB0093C74A /* FirebaseManager.swift */,
 			);
@@ -1375,7 +1372,6 @@
 				DE623FC12D350BAB0093C74A /* AccountHistoryCell.swift in Sources */,
 				DE623FC22D350BAB0093C74A /* AssistantResultViewModel.swift in Sources */,
 				DE623FC32D350BAB0093C74A /* SceneDelegate.swift in Sources */,
-				DE623FC42D350BAB0093C74A /* BranchManager.swift in Sources */,
 				DE623FC52D350BAB0093C74A /* ACEView.swift in Sources */,
 				DE623FC62D350BAB0093C74A /* AssistantImageResizeViewController.swift in Sources */,
 				DE623FC72D350BAB0093C74A /* AppDelegate.swift in Sources */,
