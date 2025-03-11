@@ -27,7 +27,6 @@
 		DE623F562D350BAB0093C74A /* CameraService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE623EEB2D350BAB0093C74A /* CameraService.swift */; };
 		DE623F572D350BAB0093C74A /* AssistantAnalyzeManualRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE623F2A2D350BAB0093C74A /* AssistantAnalyzeManualRequest.swift */; };
 		DE623F582D350BAB0093C74A /* AssistantManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE623F2F2D350BAB0093C74A /* AssistantManager.swift */; };
-		DE623F592D350BAB0093C74A /* FacebookManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE623E742D350BAB0093C74A /* FacebookManager.swift */; };
 		DE623F5A2D350BAB0093C74A /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE623E982D350BAB0093C74A /* NetworkError.swift */; };
 		DE623F5B2D350BAB0093C74A /* AccountTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE623ECF2D350BAB0093C74A /* AccountTableView.swift */; };
 		DE623F5C2D350BAB0093C74A /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE623EDF2D350BAB0093C74A /* HistoryViewController.swift */; };
@@ -173,7 +172,6 @@
 		DE623E622D35096C0093C74A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE623E632D35096C0093C74A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE623E722D350BAB0093C74A /* AmplitudeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmplitudeManager.swift; sourceTree = "<group>"; };
-		DE623E742D350BAB0093C74A /* FacebookManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookManager.swift; sourceTree = "<group>"; };
 		DE623E752D350BAB0093C74A /* FirebaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseManager.swift; sourceTree = "<group>"; };
 		DE623E772D350BAB0093C74A /* RequestReview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestReview.swift; sourceTree = "<group>"; };
 		DE623E782D350BAB0093C74A /* RxActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxActivityIndicator.swift; sourceTree = "<group>"; };
@@ -399,7 +397,6 @@
 			isa = PBXGroup;
 			children = (
 				DE623E722D350BAB0093C74A /* AmplitudeManager.swift */,
-				DE623E742D350BAB0093C74A /* FacebookManager.swift */,
 				DE623E752D350BAB0093C74A /* FirebaseManager.swift */,
 			);
 			path = Analytics;
@@ -1265,7 +1262,6 @@
 				DE623F562D350BAB0093C74A /* CameraService.swift in Sources */,
 				DE623F572D350BAB0093C74A /* AssistantAnalyzeManualRequest.swift in Sources */,
 				DE623F582D350BAB0093C74A /* AssistantManager.swift in Sources */,
-				DE623F592D350BAB0093C74A /* FacebookManager.swift in Sources */,
 				DE623F5A2D350BAB0093C74A /* NetworkError.swift in Sources */,
 				DE623F5B2D350BAB0093C74A /* AccountTableView.swift in Sources */,
 				DE623F5C2D350BAB0093C74A /* HistoryViewController.swift in Sources */,
@@ -1420,7 +1416,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = RXCT63549X;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
@@ -1437,7 +1433,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.2;
+				MARKETING_VERSION = 1.0.3;
 				PRODUCT_BUNDLE_IDENTIFIER = app.iphone.science.overall;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1460,7 +1456,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = RXCT63549X;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
@@ -1477,7 +1473,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.2;
+				MARKETING_VERSION = 1.0.3;
 				PRODUCT_BUNDLE_IDENTIFIER = app.iphone.science.overall;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
